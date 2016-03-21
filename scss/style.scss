@@ -28,7 +28,7 @@ body {
       -moz-border-radius: 100%;
       -webkit-border-radius: 100%;
       border-radius: 100%;
-      box-shadow: -5px 5px 5px #888888
+      box-shadow: -5px 5px 5px #888888;
     }
 
     img:nth-child(2) {
@@ -46,6 +46,10 @@ body {
 
   .member:hover img:nth-child(2) {
     display: inline-block;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
   }
 }
 
