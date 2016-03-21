@@ -22,15 +22,26 @@ body {
     padding: 6px;
 
     img {
+
       width: 200px;
       height: 200px;
+    }
+
+    img:nth-child(2) {
+      display: none;
     }
 
     div.name {
       text-align: center;  
     }
+  }
 
+  .member:hover img:first-child {
+    display: none;
+  }
 
+  .member:hover img:nth-child(2) {
+    display: inline-block;
   }
 }
 
